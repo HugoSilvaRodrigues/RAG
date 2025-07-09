@@ -1,0 +1,7 @@
+{
+    "limitações_smc": "O SMC tradicional limita-se a superfícies de dimensão inferior à ordem do sistema, o que pode comprometer a estabilidade em sistemas com incertezas estruturais ou dinâmicas.",
+
+  "integral_sliding_mode_control": "O Integral Sliding Mode Control (ISMC), proposto por Utkin e Shi, supera a limitação do SMC ao permitir que a superfície deslizante tenha a mesma ordem do sistema e elimina a necessidade de convergência inicial. Isso torna o controlador mais robusto frente a incertezas.",
+
+  "caracteristicas_ismc": "O ISMC utiliza um sinal de controle dividido em dois componentes (u0 e u1) e melhora a robustez do sistema. Com uma superfície deslizante de mesma ordem que o sistema, é capaz de lidar com incertezas estruturais de forma mais eficaz."
+}

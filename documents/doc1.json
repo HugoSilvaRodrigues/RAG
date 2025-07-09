@@ -1,0 +1,18 @@
+{
+    
+  "controle_de_sistemas": "Área que estuda sistemas dinâmicos, sua estabilidade e métodos de controle. Seu objetivo é garantir propriedades desejadas, como estabilidade, por meio de técnicas específicas de controle, conforme as características do sistema.",
+  
+  "escolha_da_tecnica": "A escolha do método de controle depende do intervalo de estabilização necessário e das propriedades do sistema, como linearidade ou não-linearidade.",
+
+  "sistemas_nao_lineares": "Sistemas não-lineares apresentam comportamentos complexos como múltiplos pontos de equilíbrio, ciclos limites e tempos de escape finitos, dificultando a aplicação de técnicas clássicas de controle desenvolvidas para sistemas lineares.",
+
+  "sliding_mode_control": "O Sliding Mode Control (SMC) é uma técnica de controle eficiente e simples aplicada a sistemas não-lineares. Baseia-se na definição de uma superfície deslizante que todas as trajetórias do sistema devem atingir e seguir até o ponto de referência.",
+
+  "limitações_smc": "O SMC tradicional limita-se a superfícies de dimensão inferior à ordem do sistema, o que pode comprometer a estabilidade em sistemas com incertezas estruturais ou dinâmicas.",
+
+  "integral_sliding_mode_control": "O Integral Sliding Mode Control (ISMC), proposto por Utkin e Shi, supera a limitação do SMC ao permitir que a superfície deslizante tenha a mesma ordem do sistema e elimina a necessidade de convergência inicial. Isso torna o controlador mais robusto frente a incertezas.",
+
+  "caracteristicas_ismc": "O ISMC utiliza um sinal de controle dividido em dois componentes (u0 e u1) e melhora a robustez do sistema. Com uma superfície deslizante de mesma ordem que o sistema, é capaz de lidar com incertezas estruturais de forma mais eficaz."
+
+
+}
