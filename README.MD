@@ -24,7 +24,7 @@ This VectorDB is implemented using the **LangChain** framework.
 
 Will be used a **pre-trained LLM** to act as the AI agent, with access to multiple sources of information such as:
 
-- **RAG** (Retrieval-Augmented Generation)
-- **Internet** (via APIs or plugins)
+- **RAG** (Retrieval-Augmented Generation) — *Implemented*
+- **Internet** (via APIs or plugins) — *Next step*
 
 **Coming soon...**
