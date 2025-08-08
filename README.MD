@@ -27,4 +27,12 @@ Will be used a **pre-trained LLM** to act as the AI agent, with access to multip
 - **RAG** (Retrieval-Augmented Generation) — *Implemented*
 - **Internet** (via APIs or plugins) — *Next step*
 
-**Coming soon...**
+### 🌐 Note on Internet Tooling
+
+Most free models don't support tool calling.
+
+As a workaround, I first search for information using Google (`search_internet_tool.py`),  
+then pass the retrieved content to the model as context.
+
+This feature is planned to be integrated into the main agent file: `IAagent.py`
+
